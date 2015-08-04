@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
+	<meta charset="UTF-8">
+	<script src = "angular-1.3.0.js"></script>
+	<script src="main.js"></script>
+	<title>Document</title>
+</head>
+<body>
+	<div ng-controller="DemoController">
+		<h3>累加器</h3>
+		<button ng-click="add(2)" class="button">加一</button>
+		<button ng-click="substract(1)" class="button">减一</button>
+		<h3>数字:{{ counter }}</h3>
+	</div>
+
+
+</body>
+</html>
